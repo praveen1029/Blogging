@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+</style>
+<body>
+    {% block content %}
+    <content>
+        <h1>E-Commerce</h1>
+        <b>Hi {{user_name}},</b><br>
+        <b>Welcome to the Blog Page, This page allows you to</b><br>
+        <ul>
+            <b><li>Write a Blog about any topic you want.</li></b>
+            <b><li>Modify or Update your Blog.</li></b>
+            <b><li>Moderate the comments under your Blogs.</li></b>
+        </ul> 
+        <b>We hope you have a wonderfull time with us. </b><br>
+        <b>Sincerely, </b><br>
+        <b>Blog Team </b><br>
+    </content>
+    {% endblock content %}
+</body>
+</html>
